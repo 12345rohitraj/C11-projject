@@ -24,7 +24,7 @@ sea.x=sea.length/2;
   ship = createSprite(130,200,30,30);
   ship.addAnimation("movingShip",shipImg1);
   ship.scale =0.25;
-  
+  sea.x=sae.width/2;
 }
 
 function draw() {
